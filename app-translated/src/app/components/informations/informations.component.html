@@ -1,0 +1,19 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{ "information_title" | translate }}</mat-card-title>
+    <mat-card-subtitle>{{
+      "information_subtitle" | translate
+    }}</mat-card-subtitle>
+  </mat-card-header>
+  <img
+    mat-card-image
+    src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+    [alt]="'information_picturealt' | translate"
+  />
+  <mat-card-content>
+    <p>
+      {{ "information_description" | translate }}
+    </p>
+  </mat-card-content>
+</mat-card>

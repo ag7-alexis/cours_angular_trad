@@ -1,0 +1,14 @@
+<mat-toolbar color="primary">
+  <span>{{ "title" | translate }}</span>
+</mat-toolbar>
+<mat-form-field appearance="fill">
+  <mat-select [formControl]="langageControl" name="langage">
+    <mat-option
+      *ngFor="let language of languages | keyvalue"
+      [value]="language.key"
+      >{{ language.value | translate }}</mat-option
+    >
+  </mat-select>
+</mat-form-field>
+
+<app-informations></app-informations>
