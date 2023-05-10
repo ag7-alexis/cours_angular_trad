@@ -13,7 +13,7 @@ Avantage :
 Inconvénient :
 
 -   librairie externe au core d'Angular
--   uniquement au format JSON (certain outil pour la traduction ne supporte pas le JSON)
+-   uniquement au format JSON (certain outil pour la traduction ne supporte pas le JSON) il faut créer son propre loader pour supporter les autres formats
 
 ## INFO
 
